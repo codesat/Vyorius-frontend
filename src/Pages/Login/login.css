@@ -1,0 +1,36 @@
+.login{
+    height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.loginwrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(172, 172, 172, 0.514);
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+.loginwrapper .title{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.loginwrapper Form{
+   margin-top: 30px;
+}
+.loginwrapper .bottom{
+  display: flex;
+  align-items: center;
+}
+.loginwrapper .bottom .signuptext{
+ margin-left: 10px;
+}
+.loginwrapper .bottom .signuptext span{
+ text-decoration: underline;
+ cursor: pointer;
+}
+.loginwrapper .bottom .signuptext span:hover{
+ color: #0B5ED7;
+}

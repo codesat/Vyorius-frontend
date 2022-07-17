@@ -1,0 +1,35 @@
+.register{
+    height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.registerwrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(172, 172, 172, 0.514);
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+.registerwrapper .title{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+.registerwrapper Form{
+   margin-top: 30px;
+}
+.registerwrapper .bottom{
+  display: flex;
+  align-items: center;
+}
+.registerwrapper .bottom .logintext{
+ margin-left: 10px;
+}
+.registerwrapper .bottom .logintext span{
+ text-decoration: underline;
+}
+.registerwrapper .bottom .logintext span:hover{
+ color: #0B5ED7;
+}

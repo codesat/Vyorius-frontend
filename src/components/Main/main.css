@@ -1,0 +1,49 @@
+.header{
+    padding: 15px 30px;
+    background-color: black;
+}
+.headerwrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.headerwrapper .left{
+    flex: 1;
+}
+.headerwrapper .left .logo{
+    color: white;
+    font-size: 30px;
+}
+.headerwrapper .right{
+    flex: 4;
+}
+.headerwrapper .right .btnwrapper{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+}
+.headerwrapper .right .btnwrapper button{
+    margin-right: 20px;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color: black;
+    border: 1px solid white;
+    transition:all 0.5s ease;
+}
+.headerwrapper .right .btnwrapper button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.headerwrapper .right .btnwrapper button.logout{
+    margin-right: 0px;
+}
+.welcome{
+    height: 100vh;
+    font-weight: 600;
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,63 @@
+.taskitem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+.taskitem .left{
+ flex: 1;
+}
+.taskitem .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.taskitem .taskitemwrapper{
+    border-radius: 10px;
+    padding:10px;
+    margin: 10px 0;
+    flex: 4;
+}
+.taskitem .taskitemwrapper .top{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    background-color: rgb(216, 214, 214);
+}
+.taskitem .taskitemwrapper .top .title{
+    flex: 8;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+    padding: 0 10px;
+}
+.taskitem .taskitemwrapper .top .date{
+    flex: 3;
+    font-size: 15px;
+    text-align: right;
+    margin:0 10px;
+}
+.taskitem .taskitemwrapper .bottom{
+   background-color: rgb(240, 240, 240);
+   color: black;
+   font-size: 15px;
+   padding: 10px;
+}
+.taskitem .right button{
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    margin: 5px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.taskitem .right .update{
+   color: rgb(0, 255, 0);
+   background-color: rgba(28, 143, 5, 0.774);
+}
+.taskitem .right .delete{
+   color: red;
+   background-color: rgba(184, 17, 17, 0.63);
+}

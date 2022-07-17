@@ -1,0 +1,19 @@
+.home{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+}
+.home .taskwrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home  .title{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px 0;
+}
